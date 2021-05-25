@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Head from 'next/head';
 
 import { Map } from '../../components/Map'
 
@@ -13,12 +14,16 @@ export default function Localization() {
   }
 
   return (
+    <>
+    <Head>
+      <title>Arquétipos</title>
+    </Head>
     <div className={styles.navigationpage}>
       <div className={styles.navigationContainer}>
         <Image
           width={120}
           height={120}
-          src="https://d1fdloi71mui9q.cloudfront.net/4fKS7RMcSeSvWujD4Ctl_cZViHheoEdw2lH9e" 
+          src="/logo-bottomless.png"
         />
     
         <span>@arquetiposclinicas</span>
@@ -55,6 +60,7 @@ export default function Localization() {
         </div>
       </div>
     </div>
+    </>
   )
 }
 

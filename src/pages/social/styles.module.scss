@@ -1,13 +1,22 @@
 .navigationpage {
   padding: 0 4rem;
   overflow-y: scroll;
-  margin-top: 2rem;
-  margin-bottom: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+
+  background-image: url('/17583.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 
   span {
     margin-top: 1.5rem;
     color: #0a0a0a;
     font-weight: 600;
+  }
+
+  @media (max-width: 720px) {    
+    background-size: cover;
+    background-position: center;
   }
 }
 
