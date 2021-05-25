@@ -1,0 +1,63 @@
+.navigationpage {
+  padding: 0 4rem;
+  overflow-y: scroll;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+
+  span {
+    margin-top: 1.5rem;
+    color: #0a0a0a;
+    font-weight: 600;
+  }
+}
+
+.navigationContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.groupContent {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.5rem;
+  width: 40%;
+
+  @media (max-width: 720px) {    
+    width: 100% !important;
+  }
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.btnIcon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+
+  border: 1px solid #758794;
+  border-radius: 20px;
+
+  padding: 0.2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+
+  cursor: pointer;
+
+  span {
+    margin-top: 0 !important;
+  }
+}
+
+.btn {
+  cursor: pointer;
+}

@@ -1,0 +1,41 @@
+.buttonContainer {
+  width: 100%;
+  border: 2px solid #758794;
+  background-color: #758794;
+  color: rgb(255, 255, 255);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+
+  margin-bottom: 1rem;
+
+  transition: 0.3s;
+
+  span {
+    margin-top: 0 !important;
+    color: var(--white) !important;
+    font-weight: 500 !important;
+  }
+
+}
+
+.buttonContent {
+  flex: 1;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;  
+}
+
+.buttonContent:hover {
+  background-color: var(--white);
+
+  span {
+    color: #758794 !important;
+  }
+}

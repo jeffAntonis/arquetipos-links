@@ -1,0 +1,8 @@
+.mapContainer {
+  width: 55%;
+  height: 20rem;
+
+  @media (max-width: 720px) {    
+    width: 100% !important;
+  }
+}
