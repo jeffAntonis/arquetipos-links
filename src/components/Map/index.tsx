@@ -16,7 +16,7 @@ export function Map({ location, zoomLevel }: any) {
   return (
     <div className={styles.mapContainer}>
       <GoogleMapReact
-        bootstrapURLKeys={{ key: process.env.NEXT_PUBLIC_GOOGLE_API }}
+        bootstrapURLKeys={{ key: process.env.NEXT_PUBLIC_GOOGLE_API || '' }}
         defaultCenter={location}
         defaultZoom={zoomLevel}
       >
