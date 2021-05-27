@@ -48,6 +48,7 @@ function Social() {
                   width={80}
                   height={80}
                   src="/pinterest.svg"
+                  onClick={() => window.open('https://br.pinterest.com/aclinicasintegradas/_saved/')}
                 />
               </div>
               <div className={styles.btn}>
@@ -55,6 +56,7 @@ function Social() {
                   width={80}
                   height={80}
                   src="/spotify.png"
+                  onClick={() => window.open('https://open.spotify.com/playlist/73a4jtzUiHVosKVlmh1gB7?si=MbNRvzB3SkSmrZCJEOol3w&utm_source=whatsapp')}
                 />
               </div>
             </div>
@@ -71,6 +73,7 @@ function Social() {
                   width={80}
                   height={80}
                   src="/twitter.png"
+                  onClick={() => window.open('https://mobile.twitter.com/arqutipos')}
                 />
               </div>
             </div>
