@@ -39,6 +39,7 @@ function Home() {
             />
             <Button
               text="- SITE - Clínica Arquétipos"
+              onClick={() => window.open('https://www.arquetiposclinica.com.br/')}
             />
             <Button
               text="- Agendamento de Consulta"
